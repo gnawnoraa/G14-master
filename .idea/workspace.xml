@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36b85b76-bb29-4518-b51f-aa02bc623abe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="478" column="12" lean-forward="true" selection-start-line="478" selection-start-column="12" selection-end-line="478" selection-end-column="12" />
+            <state relative-caret-position="532">
+              <caret line="482" column="44" lean-forward="false" selection-start-line="482" selection-start-column="44" selection-end-line="482" selection-end-column="44" />
               <folding>
                 <element signature="e#2421#2427#0" expanded="true" />
                 <element signature="e#2588#2594#0" expanded="true" />
@@ -351,12 +350,12 @@
       <workItem from="1498987536080" duration="3216000" />
       <workItem from="1499135382072" duration="9865000" />
       <workItem from="1499150507636" duration="7213000" />
-      <workItem from="1499158991830" duration="1364000" />
+      <workItem from="1499158991830" duration="2007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92664000" />
+    <option name="totallyTimeSpent" value="93307000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -988,8 +987,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="478" column="12" lean-forward="true" selection-start-line="478" selection-start-column="12" selection-end-line="478" selection-end-column="12" />
+        <state relative-caret-position="532">
+          <caret line="482" column="44" lean-forward="false" selection-start-line="482" selection-start-column="44" selection-end-line="482" selection-end-column="44" />
           <folding>
             <element signature="e#2421#2427#0" expanded="true" />
             <element signature="e#2588#2594#0" expanded="true" />
