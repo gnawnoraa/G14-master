@@ -30,7 +30,6 @@
     <link href="css/owl.theme.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/animate.css" rel="stylesheet">
-    <link href="css/Slideshow.css" rel="stylesheet">
 	
 	<!-- Magnific Popup core CSS file -->
 	<link rel="stylesheet" href="css/magnific-popup.css"> 
@@ -64,7 +63,7 @@
 			<ul class="list-inline intro-social-buttons">
 				<li><a href="#http://login" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">登 入</span></a>&emsp;
 				</li>
-                <li><a href="#http://register" class="btn  btn-lg mybutton_orange wow fadeIn" data-wow-delay="1.2s"><span class="network-name">註 冊</span></a>&emsp;
+                <li><a href="#register" class="btn  btn-lg mybutton_orange wow fadeIn" data-wow-delay="1.2s"><span class="network-name">註 冊</span></a>&emsp;
                 </li>
 				<li id="download" ><a target="_blank" href="https://www.facebook.com/1701566820085657/" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.6s"><span class="network-name">加入 FB 粉絲專頁</span></a>
 				</li>
@@ -250,21 +249,21 @@
 		    <div class="row wow bounceInUp" >
               <div id="owl-demo" class="owl-carousel">
 				
-				<a href="img/slide/1.png" class="image-link">
+				<a href="img/menu/1.jpg" class="image-link">
 					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
+						<img  class="img-responsive img-rounded" src="img/menu/1.jpg" alt="Owl Image">
 					</div>
 				</a>
 				
-               <a href="img/slide/2.png" class="image-link">
+               <a href="img/menu/2.jpg" class="image-link">
 					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
+						<img  class="img-responsive img-rounded" src="img/menu/2.jpg" alt="Owl Image">
 					</div>
 				</a>
 				
-				<a href="img/slide/3.png" class="image-link">
+				<a href="img/menu/3.jpg" class="image-link">
 					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
+						<img  class="img-responsive img-rounded" src="img/menu/3.jpg" alt="Owl Image">
 					</div>
 				</a>
 				
@@ -291,35 +290,54 @@
 
 
 	</div>
-	
-	<div  class="content-section-c ">
+
+	<!-- Contact -->
+	<div id="register" class="content-section-c">
 		<div class="container">
 			<div class="row">
-			<div class="col-md-6 col-md-offset-3 text-center white">
-				<h2>Get Live Updates</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
-			 </div>
-			<div class="col-md-6 col-md-offset-3 text-center">
-				<div class="mockup-content">
-						<div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
-							<button type="button "><span>Subscribe to our Newsletter</span></button>
-							<div class="morph-content">
-								<div>
-									<div class="content-style-form content-style-form-4 ">
-										<h2 class="morph-clone">Subscribe to our Newsletter</h2>
-										<form>
-											<p><label>Your Email Address</label><input type="text"/></p>
-											<p><button>Subscribe me</button></p>
-										</form>
-									</div>
-								</div>
+
+				<div class="col-md-6 col-md-offset-3 text-center white">
+					<h2>註冊</h2>
+                    <p class="lead"><strong>註冊以訂閱電子報獲得最新資訊</strong></p>
+				</div>
+
+				<form role="form" action="" method="post">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="form-group white">
+							<label for="InputName">姓名</label>
+							<div class="input-group">
+								<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+								<span class="input-group-addon"><i class="glyphicon glyphicon glyphicon-pushpin form-control-feedback"></i></span>
 							</div>
 						</div>
-				</div>
-			</div>	
-			</div>>
+
+						<div class="form-group white">
+							<label for="InputEmail">信箱</label>
+							<div class="input-group">
+								<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+								<span class="input-group-addon"><i class="glyphicon glyphicon glyphicon-pushpin form-control-feedback"></i></span>
+							</div>
+						</div>
+
+						<div class="form-group white">
+							<label for="InputMessage">備註或建議</label>
+							<div class="input-group">
+								<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Enter Message or Something" required></textarea>
+								<span class="input-group-addon"><i class="glyphicon glyphicon glyphicon-pushpin form-control-feedback"></i></span>
+							</div>
+						</div>
+						<input type="submit" name="submit" id="submit" value="提交" class="btn wow tada btn-embossed btn-primary pull-right">
+                    </div>
+				</form>
+			</div>
 		</div>
-	</div>	
+	</div>
+
+	<div class="content-section-a">
+        <div class="morph-button morph-button-inflow">
+            <button type="button"></button>
+        </div>
+	</div>
 	
 	<!-- AboutUs -->
 	<div id="aboutus" class="content-section-a">
@@ -394,71 +412,8 @@
 			</div>
 		</div>
 	</div>
-	
-	<!-- Contact -->
-	<div class="content-section-a">
-		<div class="container">
-			<div class="row">
-			
-			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Contact Us</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
-			</div>
-			
-			<form role="form" action="" method="post" >
-				<div class="col-md-6">
-					<div class="form-group">
-						<label for="InputName">Your Name</label>
-						<div class="input-group">
-							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
-							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-						</div>
-					</div>
-					
-					<div class="form-group">
-						<label for="InputEmail">Your Email</label>
-						<div class="input-group">
-							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
-							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-						</div>
-					</div>
-					
-					<div class="form-group">
-						<label for="InputMessage">Message</label>
-						<div class="input-group">
-							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
-							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-						</div>
-					</div>
 
-					<input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
-				</div>
-			</form>
-			
-			<hr class="featurette-divider hidden-lg">
-				<div class="col-md-5 col-md-push-1 address">
-					<address>
-					<h3>Office Location</h3>
-					<p class="lead"><a href="https://www.google.com/maps/preview?ie=UTF-8&q=The+Pentagon&fb=1&gl=us&hq=1400+Defense+Pentagon+Washington,+DC+20301-1400&cid=12647181945379443503&ei=qmYfU4H8LoL2oATa0IHIBg&ved=0CKwBEPwSMAo&safe=on">The Pentagon<br>
-					Washington, DC 20301</a><br>
-					Phone: XXX-XXX-XXXX<br>
-					Fax: XXX-XXX-YYYY</p>
-					</address>
 
-					<h3>Social</h3>
-					<li class="social"> 
-					<a href="#"><i class="fa fa-facebook-square fa-size"> </i></a>
-					<a href="#"><i class="fa  fa-twitter-square fa-size"> </i> </a> 
-					<a href="#"><i class="fa fa-google-plus-square fa-size"> </i></a>
-					<a href="#"><i class="fa fa-flickr fa-size"> </i> </a>
-					</li>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	
-	
     <footer>
       <div id="contact" class="container">
         <div class="row">
@@ -495,7 +450,7 @@
                 <li>退換貨須知</li>
               </ul>
               <li class="social">
-                  <a target="_blank" href="https://www.facebook.com/1701566820085657/"><i class="fa fa-facebook-square fa-size"> Facebook</i></a></br>
+                  <a target="_blank" href="https://www.facebook.com/1701566820085657/"><i class="fa fa-facebook-square fa-size"> Facebook</i></a><br>
                 <a target="_blank" href="https://www.google.com/maps/place/%E5%A4%A0%E7%BE%A9%E5%BC%8F/@24.9650263,121.1922187,17z/data=!4m8!1m2!2m1!1z5Lit5aSu5aSn5a245aSg576p5byP!3m4!1s0x346823954d6d8377:0xa380e6e4cd57202!8m2!3d24.9642289!4d121.1931521">
                   <i class="fa fa-location-arrow fa-size"> ShopInfo</i>
                 </a>
