@@ -42,7 +42,7 @@ $(document).ready(function() {
 			itemsDesktop : [1199,4],
 			itemsDesktopSmall : [979,3],
             itemsTablet: [600,2],
-            itemsMobile : [479,1]
+            itemsMobile : [479,2]
 		});
 
 		// OwlCarousel N2

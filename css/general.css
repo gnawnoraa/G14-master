@@ -117,7 +117,7 @@ opacity: 0.95 !important;
 filter: alpha(opacity=95) !important;
 }
 
-.item .img-responsive {cursor:url(../img/cross.png),auto;}
+.item .img-responsive {cursor:url(../img/icon/food1/finger1.svg),auto;}
 
 /* Preloader */
 #preloader {
@@ -174,7 +174,7 @@ filter: alpha(opacity=95) !important;
 }
 
 .button_down img {
-width: 50px;
+width: 128px;
 	
 }
 .btn-primary {
@@ -335,7 +335,7 @@ color: #ECEBEB;
 .banner {
 	padding: 100px 0;
 	color: #034b81;
-	background: url(../img/intro/G14_banner_transparent.png) no-repeat center center;
+	background: url(../img/intro/G14_banner.png) no-repeat center center;
 	background-size: contain;
 	background-repeat: repeat;
 }
