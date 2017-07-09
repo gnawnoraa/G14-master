@@ -174,8 +174,8 @@ filter: alpha(opacity=95) !important;
 }
 
 .button_down img {
-width: 128px;
-	
+    width: 128px;
+
 }
 .btn-primary {
 	border-color: rgba(52, 73, 94, 0);
@@ -597,13 +597,13 @@ color: #ECEBEB;
 
 
 /* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {
+	@media only screen and (max-width: 995px) {
 		.intro-header {
 			height: 100%;
 			padding-top: 50px;
 			padding-bottom: 50px;
 			color: #f8f8f8;
-		    background-image: none; 
+		    background-image: url(../img/intro/noodles.jpg);
 			background-size: cover;
 			text-align: center;
 			background-color: #34495e;
