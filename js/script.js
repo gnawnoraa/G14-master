@@ -38,11 +38,11 @@ $(document).ready(function() {
 		// OwlCarousel N1
 		$("#owl-demo").owlCarousel({
 			autoPlay: 3000,
-			items : 4,
-			itemsDesktop : [1199,4],
+			items : 3,
+			itemsDesktop : [1199,3],
 			itemsDesktopSmall : [979,3],
             itemsTablet: [600,2],
-            itemsMobile : [479,2]
+            itemsMobile : [479,1]
 		});
 
 		// OwlCarousel N2
@@ -62,7 +62,7 @@ $(document).ready(function() {
             itemsDesktop : [1199,3],
             itemsDesktopSmall : [979,3],
             itemsTablet: [600,2],
-            itemsMobile : [479,2]
+            itemsMobile : [479,1]
         });
 
 		//SmothScroll
