@@ -37,32 +37,54 @@ $(document).ready(function() {
 
 		// OwlCarousel N1
 		$("#owl-demo").owlCarousel({
-			autoPlay: 3000,
-			items : 4,
-			itemsDesktop : [1199,4],
-			itemsDesktopSmall : [979,3],
-            itemsTablet: [600,2],
-            itemsMobile : [479,2]
+            items:3,
+            loop:true,
+            margin:10,
+            merge:true,
+
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:false,
+
+            responsiveClass: true,
+            responsive:{
+                0:  {items:1},  //  for mobile
+                600:{items:2, mergeFit:true},  //  for tablet
+                979:{items:3, mergeFit:true},  //  for desktopSmall
+                1199:{items:3, mergeFit:true}  //  for desktop
+            }
 		});
 
 		// OwlCarousel N2
 		$("#owl-demo-1").owlCarousel({
-			navigation : false, // Show next and prev buttons
-            autoPlay: 5000,
-			slideSpeed : 300,
-			paginationSpeed : 400,
-			singleItem:true
+            items:1,
+            loop:true,
+            margin:10,
+            merge:false,
+
+            autoplay:true,
+            autoplayTimeout:5000,
+            autoplayHoverPause:false,
 		});
 
         // OwlCarousel N3
         $("#owl-demo-2").owlCarousel({
-            navigation : false, // Show next and prev buttons
-            autoPlay: 3000,
-            items : 3,
-            itemsDesktop : [1199,3],
-            itemsDesktopSmall : [979,3],
-            itemsTablet: [600,2],
-            itemsMobile : [479,2]
+            items:3,
+            loop:true,
+            margin:10,
+            merge:false,
+
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:false,
+
+            responsiveClass: true,
+            responsive:{
+                0:  {items:1},  //  for mobile
+                600:{items:2},  //  for tablet
+                979:{items:3},  //  for desktopSmall
+                1199:{items:3}  //  for desktop
+            }
         });
 
 		//SmothScroll
