@@ -49,8 +49,8 @@ $(document).ready(function() {
             responsiveClass: true,
             responsive:{
                 0:  {items:1},  //  for mobile
-                600:{items:2},  //  for tablet
-                979:{items:3},  //  for desktopSmall
+                600:{items:2, mergeFit:true},  //  for tablet
+                979:{items:3, mergeFit:true},  //  for desktopSmall
                 1199:{items:3, mergeFit:true}  //  for desktop
             }
 		});
