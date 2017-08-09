@@ -42,8 +42,10 @@ $(document).ready(function() {
             margin:10,
             merge:true,
 
-            autoplay:true,
-            autoplayTimeout:3000,
+            nav:true,
+            navText: [ "<i class='fa fa-chevron-left fa-4x'></i>", "<i class='fa fa-chevron-right fa-4x'></i>" ],
+            autoplay:false,
+            //autoplayTimeout:3000,
             autoplayHoverPause:false,
 
             responsiveClass: true,
